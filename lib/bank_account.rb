@@ -10,7 +10,7 @@ class BankAccount
   end
   
   def deposit
-    
+    @name << deposit
     
   end
 end
