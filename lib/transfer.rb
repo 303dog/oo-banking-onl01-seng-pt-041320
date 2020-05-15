@@ -10,7 +10,7 @@ class Transfer
   end
   
   def vaild?
-    @sender.vaild? && @receiver.vaild?  ? true : false
+    @sender.vaild? && @receiver.vaild? ? true : false
     
   end 
 end
