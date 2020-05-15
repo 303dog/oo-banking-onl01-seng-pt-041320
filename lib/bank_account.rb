@@ -18,6 +18,6 @@ class BankAccount
   end
   
   def vaild?
-   #{status} is "open" 
+   @status == "open" && @balance > 0 ? true : false
   end
 end
