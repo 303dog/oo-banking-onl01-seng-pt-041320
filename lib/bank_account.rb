@@ -16,4 +16,8 @@ class BankAccount
   def display_balance
     "Your balance is $#{balance}."
   end
+  
+  def vaild?
+   #{status} is "open" 
+  end
 end
