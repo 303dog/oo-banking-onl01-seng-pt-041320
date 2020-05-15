@@ -10,7 +10,7 @@ class Transfer
   end
   
   def vaild?
-    @sender.vaild && @e
+    @sender.vaild && @reciever
     
   end 
 end
