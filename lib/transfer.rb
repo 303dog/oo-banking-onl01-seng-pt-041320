@@ -24,7 +24,9 @@ class Transfer
     end 
   end 
   
-  
+  def reverse_transfer
+    if transfer == "executed"
+  end 
 end
       
               
