@@ -14,7 +14,7 @@ class Transfer
   end 
   
   def execute_transaction
-    @sender += @receiver
+    @receiver << sender.amount
   end 
 end
       
