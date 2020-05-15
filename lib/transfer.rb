@@ -1,9 +1,9 @@
 class Transfer
   
-  attr_accessor :account, :opn_status
+  attr_accessor :account, :status
   
   def initialize(account)
     @account = account
-    @opn_status = "pending"
+    @status = "pending"
   end
 end
